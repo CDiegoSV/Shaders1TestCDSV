@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader1TestMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 1fa7f112d35e33f4c8a041a4f8f6732c, type: 3}
+  m_Name: Shader2Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 4b290b1d782ae164192e8038aaf81363, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -40,14 +40,10 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _T: 50
-    m_Colors:
-    - _Color: {r: 1, g: 0.23113209, b: 0.929501, a: 0}
-    - _Color_1: {r: 1, g: 0.83413947, b: 0, a: 0}
-    - _frequency: {r: 10, g: 10, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4456307335400446652
+--- !u!114 &7585511285952644107
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
