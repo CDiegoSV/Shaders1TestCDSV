@@ -7,29 +7,33 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader2Mat
-  m_Shader: {fileID: -6465566751694194690, guid: 2d9514b9f64daab41ac4351d80891622, type: 3}
+  m_Name: Dissolve
+  m_Shader: {fileID: -6465566751694194690, guid: 379d60f7f1e99a64c9b2c31b836ba77b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _RECEIVE_SHADOWS_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses:
   - MOTIONVECTORS
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_1d8ad219d9da44e4a4c98f994f7201c7_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 2b7ea4ca6d361354da8e8fb95976f9f0, type: 3}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 2b7ea4ca6d361354da8e8fb95976f9f0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,18 +50,31 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 1
+    - _AlphaToMask: 1
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 0
+    - _Cull: 2
+    - _DissolveT: 0.67
+    - _DstBlend: 0
+    - _Glow: 0.07
+    - _NoiseScale: 62.3
+    - _NoiseStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.07
-    - _T: 2.18
+    - _ReceiveShadows: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0.4056604, g: 0, b: 0.3684058, a: 0}
-    - _Color_1: {r: 0.3018868, g: 0.25943503, b: 0.044143822, a: 0}
-    - _Light: {r: 0, g: -1, b: 0, a: 0}
-    - _frequency: {r: 50, g: 50, b: 0, a: 0}
+    - _GlowColor: {r: 0.1393123, g: 4, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4456307335400446652
+--- !u!114 &4667510098182468459
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
