@@ -56,7 +56,7 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 0
     - _Cull: 2
-    - _DissolveT: -0.47
+    - _DissolveT: -0.55
     - _DstBlend: 0
     - _Glow: 0.07
     - _NoiseScale: 62.3

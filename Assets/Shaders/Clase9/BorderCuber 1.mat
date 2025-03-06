@@ -7,33 +7,23 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HologramMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 29931f850183d1244a89a6b5ec9ac5cd, type: 3}
+  m_Name: BorderCuber 1
+  m_Shader: {fileID: -6465566751694194690, guid: 0466d57619b5ece4db7c192b4d3daa8d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
-  - _RECEIVE_SHADOWS_OFF
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  - DepthOnly
-  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Texture2D:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -48,28 +38,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _CastShadows: 0
-    - _Cull: 2
-    - _DstBlend: 10
+    - _BoderLimit: 0.086
+    - _Intersection: 5.94
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 0
-    - _Speed: 1
-    - _SrcBlend: 1
-    - _Surface: 1
-    - _WorkflowMode: 1
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
     m_Colors:
-    - _GlowColor: {r: 0, g: 2.5108829, b: 7.999999, a: 0}
+    - _BloomColor: {r: 8.031374, g: 0, b: 0.06210173, a: 0}
+    - _Color: {r: 1, g: 0.19814432, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1505315607959444898
+--- !u!114 &928613612212849800
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
