@@ -330,25 +330,25 @@ MonoBehaviour:
   m_Active: 1
   settings:
     passTag: RenderObjects
-    Event: 300
+    Event: 1000
     filterSettings:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 0
+        m_Bits: 32
       PassNames: []
     overrideMaterial: {fileID: 2100000, guid: 31155f6ca8a7b7349a0b160254fe9f32, type: 2}
     overrideMaterialPassIndex: 0
     overrideShader: {fileID: -6465566751694194690, guid: e454c14cb1247484b8fd6c0b139bdd20, type: 3}
     overrideShaderPassIndex: 0
-    overrideMode: 2
+    overrideMode: 1
     overrideDepthState: 0
     depthCompareFunction: 0
     enableWrite: 1
     stencilSettings:
-      overrideStencilState: 0
-      stencilReference: 0
-      stencilCompareFunction: 8
+      overrideStencilState: 1
+      stencilReference: 15
+      stencilCompareFunction: 6
       passOperation: 0
       failOperation: 0
       zFailOperation: 0

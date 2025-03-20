@@ -852,7 +852,7 @@
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_RenderFace": 0,
+    "m_RenderFace": 1,
     "m_AlphaClip": true,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
@@ -1779,8 +1779,8 @@
     "m_ObjectId": "71b248b87e994ace8845c3bb2db993ce",
     "m_Title": "Color",
     "m_Position": {
-        "x": -753.0001220703125,
-        "y": 525.0000610351563
+        "x": -752.999755859375,
+        "y": 524.9999389648438
     }
 }
 
@@ -3601,7 +3601,7 @@
     "m_ObjectId": "f34297fe42ba4f8181c19452ba63bc13",
     "m_Title": "Object Position",
     "m_Position": {
-        "x": -1308.0001220703125,
+        "x": -1307.999755859375,
         "y": -149.99998474121095
     }
 }
