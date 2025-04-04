@@ -51,17 +51,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.222
-    - _FresnelPower: 3
-    - _Metallic: 0.556
+    - _Alpha: 0
+    - _FresnelPower: 4.2
+    - _Metallic: 0.245
     - _MoveTime: 0.5
-    - _NoiseScale: 110.21
+    - _NoiseScale: 108.29
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
     - _Threshold: 0
     m_Colors:
     - _Base_Color: {r: 0, g: 0, b: 0, a: 1}
-    - _Fresnel_Color: {r: 16, g: 2.6169431, b: 0, a: 0}
+    - _Fresnel_Color: {r: 64, g: 24.539013, b: 8.754719, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
